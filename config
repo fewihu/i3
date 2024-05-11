@@ -24,6 +24,9 @@ font pango:UbuntuMono Nerd Font 12
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id lxpolkit
 
+# visually and later accoustly warn about low battery
+exec --no-startup-id ~/.config/i3/scripts/bat.sh
+
 # ------------------------------------------------------------------------------
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
